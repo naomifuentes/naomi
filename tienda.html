@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body bgcolor="#E6E6FA">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Veterinaria</title>
+    <style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  overflow: hidden;
+  background-color: #B0C4DE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #483D8B;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #778899;
+}
+
+.active {
+  background-color: #D8BFD8;
+}   
+
+h1 {
+   text-shadow:
+  -1px -1px 1px #aaa,
+  0px 4px 1px rgba(0, 0, 0, 0.5),
+  4px 4px 5px rgba(0, 0, 0, 0.7),
+  0px 0px 7px rgba(0, 0, 0, 0.4);
+   color: #9370D8;
+   text-align: center;
+   font-size: 40px;
+}
+
+p {
+     margin-top: 40px;
+   color: #778899;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black,        0 -1px black;
+}
+
+ .product {
+    display: inline-block;
+    margin: 40px;
+  }
+
+ .product img {
+    border-radius: 30%;
+    width: 250px;
+    height: 300px;
+  }
+
+ .product h3,.product p,.product button {
+    display: block;
+    text-align: center;
+  }
+
+ .product button {
+    background-color: #4B0082;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+ .product button:hover {
+    background-color: #BA55D3;
+  }
+</style>
+</head>
+
+<body>
+    <ul>
+  <li><a href="index.html">HOME</a></li>
+<li><a  href="menu.html">MENU</a></li>
+<li><a  href="citas.html">CITAS</a></li>
+<li><a  class="active"  href="tienda.html">TIENDA</a></li>
+<li><a  href="despedida.html">CONTACTO</a></li>
+</ul>
+<br>
+<br>
+
+      <h1>ONLINE SHOP</h1>
+<br>
+      <p>Bienvenid@ a la tienda de Meo Veterinaria!!
+      <br>Aqui podras encontrar todo tipo de articulos para tu mascota a precios economicos.
+      <br>Esperamos que tu estancia en nuestra tienda sea de tu agrado!! 
+    
+
+    <article class="product">
+      <img src="imag/pecheraperro.jpg" alt="Pechera Para Perro">
+      <h3>Pechera Para Perro</h3>
+      <p>$150.00</p>
+      <button>ADD TO CART</button>
+    </article>
+
+    <article class="product">
+      <img src="imag/camaperro.jpg" alt="Cama grande para perros">
+      <h4>Cama grande para perros</h4>
+      <p>$200.00</p>
+      <button>ADD TO CART</button>
+    </article>
+
+    <article class="product">
+      <img src="imag/alimentoparapeces.jpg" alt="Alimento Para Peces">
+      <h5>Alimento Para Peces</h5>
+      <p>$80.00</p>
+      <button>ADD TO CART</button>
+    </article>
+
+    <article class="product">
+      <img src="imag/comidaconejo.jpg" alt="Comida para Conejos">
+      <h6>Comida para Conejos</h6>
+      <p>$350.00</p>
+      <button>ADD TO CART</button>
+    </article>
+  </section>
+
+</body>
+</html>
